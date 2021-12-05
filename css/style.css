@@ -1,0 +1,87 @@
+body, html {width: 100vw; height: 100vh;}
+body {font-family: 'Noto Serif KR', serif; background-color: #F9F5EF;}
+body::-webkit-scrollbar {display: none;}
+#sectionOne {position: relative; height: 100vh;}
+#sectionOne .textContainer {text-align: center; margin: 0 auto; padding-top: 142px;}
+#sectionOne .textContainer h2 {display: inline-block; font-size: calc(100vw * 144 / 1920); font-weight: 400; line-height: 1.2em;}
+#sectionOne .textContainer .left {text-align: left;}
+#sectionOne .textContainer .right {text-align: right;}
+#sectionOne .definition .love1 {width: calc(100vw * 345 / 1920); position: absolute; top: 21%; left: 51.5%; z-index: -1;}
+#sectionOne .definition .love2 {width: calc(100vw * 409 / 1920); position: absolute; top: 58%; left: 38%;}
+#sectionOne .imgContainer .img1 {width: calc(100vw * 500 / 1920); position: absolute; top: 59%; left: 8%; z-index: -1;}
+#sectionOne .imgContainer .img2 {width: calc(100vw * 606 / 1920); position: absolute; top: 86%; left: 40%;}
+#sectionOne .textContainer .stroke {width: calc(100vw * 323 / 1920); position: absolute; top: 30%; left: 8%;}
+#sectionOne .textContainer .circle {width: calc(100vw * 300 / 1920); position: absolute; top: 34%; right: 23%;}
+
+.text h6 {display: inline-block; font-size: calc(100vw * 50 / 1920); font-weight: 400; line-height: 1.5em;}
+.text h5 {display: inline-block; font-size: calc(100vw * 42 / 1920); position: absolute; font-weight: 400; line-height: 1.5em;}
+
+#sectionTwo {position: relative; height: 100vh;}
+#sectionTwo .text {position: absolute; top: 54%; left: 8%;}
+#sectionTwo .text .stroke2 {width: calc(100vw * 508 / 1920); position: absolute; top: 76%; left: -4%;}
+#sectionTwo .text h5 {top: 82%; right: -100%;}
+
+#sectionThree {position: relative; height: 100vh;}
+#sectionThree .img3 {width: calc(100vw * 540 / 1920); position: absolute; top: 50%; left: 8%;}
+#sectionThree .text h6 {position: absolute; top: 49%; right: 15%;}
+#sectionThree .text h5 {top: 98%; left: 13%;}
+#sectionThree .text .stroke3 {width: calc(100vw * 308 / 1920); position: absolute; top: 70%; left: 49%;}
+
+#sectionFour {position: relative; height: 100vh;}
+#sectionFour .img4 {width: calc(100vw * 459 / 1920); position: absolute; top: 35%; left: 55%;}
+#sectionFour .text h6 {position: absolute; top: 68%; right: 40%; z-index: -1;}
+#sectionFour .text h5 {top: 139%; left: 70%;}
+#sectionFour .text .stroke4 {width: calc(100vw * 309 / 1920); position: absolute; top: 137%; left: 29%;}
+
+#sectionFive {position: relative; height: 100vh;}
+#sectionFive .img5 {width: calc(100vw * 871 / 1920); position: absolute; top: 75%; left: 1%;}
+#sectionFive .text h6 {position: absolute; top: 73%; right: 8%;}
+#sectionFive .text h5 {top: 137%; left: 7%;}
+#sectionFive .text .circle2 {width: calc(100vw * 135 / 1920); position: absolute; top: 118%; left: 63%;}
+
+#sectionSix {position: relative; height: 100vh;}
+#sectionSix .img6 {width: calc(100vw * 734 / 1920); position: absolute; top: 86%; left: 36%;}
+#sectionSix .text h6 {position: absolute; top: 85%; left: 6%;}
+#sectionSix .text h5 {top: 150%; left: 22%;}
+#sectionSix .text .stroke5 {width: calc(100vw * 321 / 1920); position: absolute; top: 130%; left: 19%;}
+
+#sectionSeven {position: relative; height: 100vh;}
+#sectionSeven .img7 {width: calc(100vw * 857 / 1920); position: absolute; top: 123%; left: 13%; z-index: 10;}
+#sectionSeven .text h6 {position: absolute; top: 85%; right: 10%;}
+#sectionSeven .text h5 {top: 195%; left: 72%;}
+#sectionSeven .text .circle3 {width: calc(100vw * 177 / 1920); position: absolute; top: 130%; left: 19%;}
+
+#sectionEight {position: relative; height: 100vh;}
+#sectionEight .img8 {width: calc(100vw * 487 / 1920); position: absolute; top: 135%; left: 5%; z-index: 10;}
+#sectionEight .text h6 {position: absolute; top: 145%; right: 6%;}
+#sectionEight .text h5 {top: 217%; left: 30%;}
+#sectionEight .text .stroke6 {width: calc(100vw * 315 / 1920); position: absolute; top: 197%; left: 75%;}
+
+#sectionNine {position: relative; height: 100vh;}
+#sectionNine .img9 {width: calc(100vw * 765 / 1920); position: absolute; top: 170%; left: 49%; z-index: 10;}
+#sectionNine .text h6 {position: absolute; top: 176%; left: 20%;}
+#sectionNine .text h5 {top: 249%; left: 65%;}
+#sectionNine .text .stroke7 {width: calc(100vw * 357 / 1920); position: absolute; top: 243%; left: 42%;}
+
+#sectionTen {position: relative; height: 100vh;}
+#sectionTen .img10 {width: calc(100vw * 1203 / 1920); position: absolute; top: 230%; left: 50%; transform: translateX(-50%); z-index: 10;}
+#sectionTen .text h6 {position: absolute; top: 210%; left: 50%; transform: translateX(-50%); z-index: 10;}
+#sectionTen .text h5 {top: 304%; left: 34%;}
+#sectionTen .text .stroke8 {width: calc(100vw * 299 / 1920); position: absolute; top: 243%; left: 50%; transform: t; z-index: 9;}
+
+#sectionEleven {position: relative; height: 100vh;}
+#sectionEleven .textBox {width: 100%; text-align: center; margin: 0 auto; position: absolute; top: 270%; left: 50%; transform: translateX(-50%);}
+#sectionEleven .textBox h2 {font-size: calc(100vw * 144 / 1920); font-weight: 700; line-height: 1.5em;}
+#sectionEleven .textBox h2 input {font-size: calc(100vw * 144 / 1920); width: calc(100vw * 988 / 1920); background-color: transparent; border: none;}
+#sectionEleven .textBox .stroke9 {width: calc(100vw * 1100 / 1920); position: absolute; top: 10%; left: 28%; z-index: -1;}
+#sectionEleven .borderContainer {width: calc(100vw * 1731 / 1920); position: absolute; top: 318%; left: 50%; transform: translateX(-50%);}
+#sectionEleven .borderContainer .border {width: 100%; border-bottom: 2px solid black;}
+#sectionEleven .borderContainer .border:nth-child(2) {margin: calc(100vw * 20 / 1920) 0;}
+
+footer {position: relative; top: 245%; padding-bottom: calc(100vw * 100 / 1920);}
+footer ul {padding-left: calc(100vw * 140 / 1920); width: 100%;}
+footer ul li {display: inline-block; font-size: calc(100vw * 14 / 1920); font-weight: 200;}
+footer ul li:nth-child(1) {margin-right: calc(100vw * 190 / 1920);}
+footer ul li:nth-child(2) {margin-right: calc(100vw * 106 / 1920);}
+footer ul li:nth-child(3) {margin-right: calc(100vw * 426 / 1920);}
+footer ul li:nth-child(4) {margin-right: calc(100vw * 157 / 1920);}
