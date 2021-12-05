@@ -3,7 +3,7 @@ body {font-family: 'Noto Serif KR', serif; background-color: #F9F5EF;}
 body::-webkit-scrollbar {display: none;}
 #sectionOne {position: relative; height: 100vh;}
 #sectionOne .textContainer {text-align: center; margin: 0 auto; padding-top: 142px;}
-#sectionOne .textContainer h2 {display: inline-block; font-size: calc(100vw * 144 / 1920); font-weight: 400; line-height: 1.2em;}
+#sectionOne .textContainer h2 {display: inline-block; font-size: calc(100vw * 144 / 1920); font-weight: 700; line-height: 1.2em;}
 #sectionOne .textContainer .left {text-align: left;}
 #sectionOne .textContainer .right {text-align: right;}
 #sectionOne .definition .love1 {width: calc(100vw * 345 / 1920); position: absolute; top: 21%; left: 51.5%; z-index: -1;}
@@ -13,8 +13,8 @@ body::-webkit-scrollbar {display: none;}
 #sectionOne .textContainer .stroke {width: calc(100vw * 323 / 1920); position: absolute; top: 30%; left: 8%;}
 #sectionOne .textContainer .circle {width: calc(100vw * 300 / 1920); position: absolute; top: 34%; right: 23%;}
 
-.text h6 {display: inline-block; font-size: calc(100vw * 50 / 1920); font-weight: 400; line-height: 1.5em;}
-.text h5 {display: inline-block; font-size: calc(100vw * 42 / 1920); position: absolute; font-weight: 400; line-height: 1.5em;}
+.text h6 {display: inline-block; font-size: calc(100vw * 50 / 1920); font-weight: 700; line-height: 1.5em;}
+.text h5 {display: inline-block; font-size: calc(100vw * 42 / 1920); position: absolute; font-weight: 700; line-height: 1.5em;}
 
 #sectionTwo {position: relative; height: 100vh;}
 #sectionTwo .text {position: absolute; top: 54%; left: 8%;}
